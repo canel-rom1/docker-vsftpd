@@ -19,9 +19,6 @@ clean-docker-latest:
 
 clean: clean-docker clean-docker-latest
 
-pull:
-	docker pull $(prefix)/$(name)
-
 monitor:
 	docker exec -it $(name) bash
 
