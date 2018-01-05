@@ -1,6 +1,6 @@
 prefix ?= canelrom1
 name   ?= vsftpd
-tag    ?= 0.1
+tag    ?= $(shell date +%y.%m.%m)
 
 all: run
 
