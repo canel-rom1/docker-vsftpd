@@ -1,4 +1,4 @@
-FROM canelrom1/debian-canel:stretch
+FROM canelrom1/debian-canel:latest
 MAINTAINER Rom1 <rom1@canel.ch> - CANEL - https://www.canel.ch
 
 LABEL date="25/09/17"
